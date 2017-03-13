@@ -4,7 +4,6 @@ exports.create = (layer) ->
 	days = 7
 	weeks = 5
 	dayWidth = 72
-	alert 'oh fuck!' if layer.width < dayWidth * 7
 	dayHeight = 30
 	marginTop = 15
 	distanceFromOutline = 85
